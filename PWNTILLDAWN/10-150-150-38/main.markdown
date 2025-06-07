@@ -58,4 +58,17 @@ But funny enough I can `cat` out it's presumed contents:
 
 Copy paste and ssh into junior dev and voila we are juniordev
 
+![alt text](images/jdevterminal.png)
 
+Ran `Linpeas` again, no dice :unamused:, tried some suggested exploits, nothing. Looked a bit close and found something
+
+![](images/ports.png)
+
+A port that didn't show up during recon ,looked into it a bit more with `pspy`
+
+![image of pspy](images/pspy.png)
+
+Used ssh local port forwarding to open the local page:`ssh -L 8080:127.0.0.1:8080 juniordev@10.150.150.38 -i id_rsa -fN` 
+and the we have a page now.
+
+It looks like a simple additiion page created in python.
