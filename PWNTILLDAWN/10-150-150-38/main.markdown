@@ -89,13 +89,14 @@ There is.
 ![](images/burp.png)
 ![](images/root.png)
 
-Found a flag, alongside an image that could be a flag, Transferred it and took a look at the pic.  
+Found a flag, alongside an image that could be a flag. Transferred it and took a look at the pic.  
 
 ---
 
 Found a way to transfer it here `https://medium.com/@PenTest_duck/almost-all-the-ways-to-file-transfer-1bd6bf710d65`  
 
-Got the image, opened it, got the flag and we're Done.  
-
-![](images/final.png)
+Got the image, opened it and the flag was there in plain text.  
+  
+  ---
+DONE.  
 
