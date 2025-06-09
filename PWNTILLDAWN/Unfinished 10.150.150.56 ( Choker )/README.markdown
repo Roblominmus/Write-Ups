@@ -42,3 +42,4 @@ Got the first flag, all that remains is Privilege Escalation.
 ![alt text](<images/flag 1.png>)  
 
 ---
+`sudo -l` did nothing. 
