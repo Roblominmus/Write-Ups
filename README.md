@@ -1,2 +1,2 @@
 # Write-Ups
-These are some writeups i've made
+These are some writeups made by Roblominmus.
