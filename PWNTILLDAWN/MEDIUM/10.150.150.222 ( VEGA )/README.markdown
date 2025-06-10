@@ -33,5 +33,5 @@ Ran `sudo -l` and saw i could run all commands. Proceeded to run `sudo su` ad ge
 ![alt text](<images/last flag.png>)
 
 ---
-Done.
+DONE.
 
