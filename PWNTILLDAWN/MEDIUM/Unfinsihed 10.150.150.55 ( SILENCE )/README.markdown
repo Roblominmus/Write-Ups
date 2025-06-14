@@ -1,4 +1,4 @@
-# 10.150.150.55 () - PWNTILLDAWN WRITEUP
+# 10.150.150.55 ( SILENCE ) - PWNTILLDAWN WRITEUP
 
 ## SCANNING
 Rustscan scan results
@@ -16,5 +16,3 @@ I used nikto on the http site and found an interesting page
 ![alt text](images/nikto.png)  
 ![alt text](images/site.png)  
 
-If there is one then there might be more.  
-After some Fuzzing i found -thing.
