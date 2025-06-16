@@ -12,10 +12,23 @@ After serving to nmap I got
 
 ---
 
-Went to the page on port 5000
+Went to the page on port 5000, it's running on Werkzueg. That might be some good information.
 
 ![alt text](<images/5000 mainpage.png>)
 
 ---
 
-After some fuzzing i discovered some directories
+After some directory bruteforcing i discovered some directories on the website in port 5000.
+
+![alt text](images/fuffing.png)
+
+---
+
+Went to the console application and met a pin prompt
+
+![alt text](images/consolepin.png)
+
+---
+Got a way to get past it on ``
+
+
